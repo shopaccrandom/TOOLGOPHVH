@@ -102,9 +102,9 @@ print(banner)
 os.system('cls')
 print(banner)
 ### nhap key
-print(f'\033[1;32m KEY NGÀY [{ngay_hom_nay}/{thang_nay}/2023] LÀ:')
+print(f'\033[1;32m KEY NGÀY [{ngay_hom_nay}/{thang_nay}/2023] LÀ:https://link4m.com/3iOhAIa')
 #print(key)
-keynhap = input('\033[1;32m Key Là:https://link4m.com/3iOhAIa')
+keynhap = input('\033[1;32m Key Là:')
 
 KEYMUA = "HVH1562009"
 
