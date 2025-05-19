@@ -103,7 +103,7 @@ os.system('cls')
 print(banner)
 ### nhap key
 print(f'\033[1;32m KEY NGÀY [{ngay_hom_nay}/{thang_nay}/2023] LÀ:')
-print(key)
+#print(key)
 keynhap = input('\033[1;32m Key Là: ')
 
 KEYMUA = "HVH1562009"
