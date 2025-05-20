@@ -157,6 +157,7 @@ print("\033[1;31m[\033[1;37mBé Tập Code\033[1;31m] \033[1;37m=> \033[1;32mNh�
 print("\033[1;31m[\033[1;37mBé Tập Code\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;31m[\033[1;33m✨ 11\033[1;31m] \033[1;32mTool BUFF LIKE COMMENT")
 print("\033[1;31m[\033[1;37mBé Tập Code\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;31m[\033[1;33m✨ 12\033[1;31m] \033[1;32mTool BUFF FOLLOW PAGE ")
 print("\033[1;31m[\033[1;37mBé Tập Code\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;31m[\033[1;33m✨ 13\033[1;31m] \033[1;32mTool GET THÔNG TIN BÀI VIẾT ")
+print("\033[1;31m[\033[1;37mBé Tập Code\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;31m[\033[1;33m✨ 14 \033[1;31m] \033[1;32mTool Tool REGPAGE PRO5 ")
 print("\033[1;31m────────────────────────────────────────────────────────────")
 
 #print("\033[1;31m[\033[1;37mBé Tập Code\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;31m[\033[1;33m00\033[1;31m] \033[1;32mThoát Tool")
@@ -197,7 +198,8 @@ if chon == 12 :
   exec(requests.get('https://raw.githubusercontent.com/shopaccrandom/TOOLGOPHVHsdfgbvusjygfuierfhsfvbskugahzusebtfgaiusetbgvasitdcziubv5465argedrsardhtdudtyregzsergsrfyu/refs/heads/main/TOOL_G%E1%BB%98P_HVHTOOOL/TOOL%20TI%E1%BB%86N%20%C3%8DCH%20FACEBOOK/Tool%20Buff%20Follow%20B%E1%BA%B1ng%20Page%20Pro5.py').text)
 if chon == 13 :
   exec(requests.get('https://raw.githubusercontent.com/shopaccrandom/TOOLGOPHVHsdfgbvusjygfuierfhsfvbskugahzusebtfgaiusetbgvasitdcziubv5465argedrsardhtdudtyregzsergsrfyu/refs/heads/main/TOOL_G%E1%BB%98P_HVHTOOOL/TOOL%20TI%E1%BB%86N%20%C3%8DCH%20FACEBOOK/GET_NOIDUNGFB.py').text)
-
+if chon == 14 :
+  exec(requests.get('https://raw.githubusercontent.com/shopaccrandom/TOOLGOPHVHsdfgbvusjygfuierfhsfvbskugahzusebtfgaiusetbgvasitdcziubv5465argedrsardhtdudtyregzsergsrfyu/refs/heads/main/TOOL_G%E1%BB%98P_HVHTOOOL/TOOL%20TI%E1%BB%86N%20%C3%8DCH%20FACEBOOK/%5B21%5D%20Tool%20Reg%20Page%20Pro5.py').text)
 if chon == 00 :
   exit()
 
