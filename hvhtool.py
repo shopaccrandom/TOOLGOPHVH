@@ -11,6 +11,19 @@ lam = "\033[1;36m"
 hong = "\033[1;95m"
 thanh_xau= trang + red + "[" + vang+ "⟨⟩" + red + "] " + trang + "➩ "
 thanh_dep= trang + red + "[" + luc + "✓" + red + "] " + trang + "➩ "
+xnhac = "\033[1;36m"
+do = "\033[1;31m"
+luc = "\033[1;32m"
+vang = "\033[1;33m"
+xduong = "\033[1;34m"
+tim = '\033[1;39m'
+hong = "\033[1;35m"
+trang = "\033[1;37m"
+whiteb = "\033[1;37m"
+red = "\033[0;31m"
+redb = "\033[1;31m"
+end = '\033[0m'
+
 #THU 
 #from datetime import datetime
 
@@ -24,13 +37,74 @@ thanh_dep= trang + red + "[" + luc + "✓" + red + "] " + trang + "➩ "
 #from bs4 import BeautifulSoup
 #from datetime import datetime
 #import re,requests,os,sys
-
+import os,sys
+os.system('cls')
+banner = f""" 
+\033[0;31m██╗░░██╗██╗░░░██╗██╗░░██╗  ████████╗░█████╗░░█████╗░██╗░░░░░
+\033[1;32m██║░░██║██║░░░██║██║░░██║  ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
+\033[1;31m███████║╚██╗░██╔╝███████║  ░░░██║░░░██║░░██║██║░░██║██║░░░░░
+\033[1;32m██╔══██║░╚████╔╝░██╔══██║  ░░░██║░░░██║░░██║██║░░██║██║░░░░░
+\033[1;31m██║░░██║░░╚██╔╝░░██║░░██║  ░░░██║░░░╚█████╔╝╚█████╔╝███████╗
+\033[1;32m╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝  ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+\033[1;39m┌────────────────────── Bé Tập Code TOOL ──────────────────────┐
+\033[1;32m║   \033[1;39mTOOL BY\033[1;32m            :  Bé Tập Code                          \033[1;32m║
+\033[1;32m║   \033[1;39mYOUTUBER\033[1;32m           :  HVHTOOL                         \033[1;32m     ║
+\033[1;32m║   \033[1;39mYOTUBE_LINK\033[1;32m        :  https://www.youtube.com/@HVHTOOL\033[1;32m     ║
+\033[1;39m└──────────────────────────────────────────────────────────────┘
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+"""
 #from datetime import date
 #import requests, random
 #import uuid, re
 #from pystyle import Write,Colors
 #from bs4 import BeautifulSoup
 #import socket
+  #os.system("")
+print(banner)
+setup=input(f'{vang}Nhập 1 để Setup tất cả thư viện | nếu set setup 1 tool vần lỗi thư viện thì chọn 2 | 2 lỗi thì cài lại python bản mới nhất ==> ai setup rồi thì ENTER để vào tool:')
+if setup == '1':
+  import os,sys
+  os.system("pip install requests")
+  os.system("pip install art")
+  os.system("pip install colorama")
+  os.system("pip install tabulate")
+  os.system("pip install bs4")
+  os.system("pip install pystyle")
+  os.system("pip install curl_cffi")
+  os.system("pip cài đặt random2")
+  os.system("pip cài đặt selenium")
+  os.system("pip install DateTime")
+  os.system("pip install threaded")
+  os.system("pip install thread")
+  os.system("pip install urllib3")
+  os.system("pip install faker requests colorama bs4 pystyle")
+  os.system("pip install requests pysocks")
+  print('__Vui Lòng Chạy Lại Tool__')
+  sys.exit()
+elif setup == '2':
+  import os,sys
+  os.system("pip3 install requests")
+  os.system("pip3 install art")
+  os.system("pip3 install colorama")
+  os.system("pip3 install tabulate")
+  os.system("pip3 install bs4")
+  os.system("pip3 install pystyle")
+  os.system("pip3 install curl_cffi")
+  os.system("pip3 cài đặt random2")
+  os.system("pip3 cài đặt selenium")
+  os.system("pip3 install DateTime")
+  os.system("pip3 install threaded")
+  os.system("pip3 install thread")
+  os.system("pip3 install urllib3")
+  os.system("pip3 install faker requests colorama bs4 pystyle")
+  os.system("pip3 install requests pysocks")
+  print('__Vui Lòng Chạy Lại Tool__')
+  sys.exit()
+else:
+   pass
+
+   
 try :
   from time import strftime
   from datetime import datetime, timedelta
@@ -51,34 +125,7 @@ except ImportError:
 #os.system("")
 
 # màu
-xnhac = "\033[1;36m"
-do = "\033[1;31m"
-luc = "\033[1;32m"
-vang = "\033[1;33m"
-xduong = "\033[1;34m"
-tim = '\033[1;39m'
-hong = "\033[1;35m"
-trang = "\033[1;37m"
-whiteb = "\033[1;37m"
-red = "\033[0;31m"
-redb = "\033[1;31m"
-end = '\033[0m'
-os.system('cls')
-banner = f""" 
-\033[0;31m██╗░░██╗██╗░░░██╗██╗░░██╗  ████████╗░█████╗░░█████╗░██╗░░░░░
-\033[1;32m██║░░██║██║░░░██║██║░░██║  ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
-\033[1;31m███████║╚██╗░██╔╝███████║  ░░░██║░░░██║░░██║██║░░██║██║░░░░░
-\033[1;32m██╔══██║░╚████╔╝░██╔══██║  ░░░██║░░░██║░░██║██║░░██║██║░░░░░
-\033[1;31m██║░░██║░░╚██╔╝░░██║░░██║  ░░░██║░░░╚█████╔╝╚█████╔╝███████╗
-\033[1;32m╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝  ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝
-\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-\033[1;39m┌────────────────────── Bé Tập Code TOOL ──────────────────────┐
-\033[1;32m║   \033[1;39mTOOL BY\033[1;32m            :  Bé Tập Code                          \033[1;32m║
-\033[1;32m║   \033[1;39mYOUTUBER\033[1;32m           :  HVHTOOL                         \033[1;32m     ║
-\033[1;32m║   \033[1;39mYOTUBE_LINK\033[1;32m        :  https://www.youtube.com/@HVHTOOL\033[1;32m     ║
-\033[1;39m└──────────────────────────────────────────────────────────────┘
-\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
-"""
+
 
 ngay=int(strftime('%d'))
 time=datetime.now().strftime("%H:%M:%S")
