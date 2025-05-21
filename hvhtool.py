@@ -149,7 +149,7 @@ print(banner)
 os.system('cls')
 print(banner)
 ### nhap key
-print(f'\033[1;32m KEY NGÀY [{ngay_hom_nay}/{thang_nay}/2023] LÀ:https://link4m.com/P8U04dNP')
+print(f'\033[1;32m KEY NGÀY [{ngay_hom_nay}/{thang_nay}/2023] LÀ:https://link4m.com/6prJUE')
 #print(key)
 keynhap = input('\033[1;32m Key Là:')
 
