@@ -1,1 +1,1 @@
-print('TOOL TẠP THỜI DÙNG HOẠT ĐỘNG LÍ DO BẢO MẬT')
+print('đã có tool mới mn vui lòng tải lại tool trong discord')
